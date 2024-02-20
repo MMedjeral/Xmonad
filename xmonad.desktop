@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Xmonad
+Exec=/home/mjm/.local/bin/xmonad
+Icon=xmonad
+Terminal=false
+StartupNotify=false
+Categories=Application;

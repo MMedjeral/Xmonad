@@ -1,0 +1,12 @@
+Config { font = "xft:Dejavu Sans Mono-12"
+       , lowerOnStart = True
+       , bgColor = "#002b36"
+       , fgColor = "#93a1a1"
+       , position = Bottom
+       , commands = [ Run Date "%a %b %_d %H:%M" "date" 10
+                    , Run XMonadLog
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%XMonadLog% }{ <fc=#FF5733>%date%</fc> "
+       }
