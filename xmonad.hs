@@ -86,4 +86,3 @@ myStartupHook = do
   spawnOnce "feh --bg-fill ~/backup/xmonad/bg.png"
   spawnOnce "xsetroot -cursor_name left_ptr"
   spawnOnce "setxkbmap -layout es"
-  spawnOnce "nm-applet &"
